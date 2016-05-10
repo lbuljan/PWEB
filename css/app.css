@@ -1,0 +1,44 @@
+body{
+	background-color: #DDDDDD;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#landing{
+	min-height: 450px; height: 70%;background-color: rgb(41, 49, 52);
+	z-index: 0;
+}
+#header{
+	height: 50px;
+	background-color: #DDDDDD;
+	top: 0px;
+	z-index: 1;
+}
+#header p {
+	line-height: 50px;
+	color: rgb(41, 49, 52);
+}
+.mid{
+	text-align: center;
+}
+.naslov{
+	font-family: 'Play', sans-serif;
+	color: #EEEEEE;
+	font-size: 4em;
+}
+#cv{
+	height: 65px;
+	width: 65px;
+	transition: height 0.5s, width 0.5s;
+}
+#cv:hover{
+	height: 81px;
+	width: 81px;
+	transition: height 0.5s, width 0.5s;
+}
+.vline{
+	margin-top: 2px;
+	width: 1px;
+	height: 46px;
+	border: 1px solid rgba(41, 49, 52, 10);
+	margin-left: auto;
+	margin-right: auto;
+}
