@@ -4,13 +4,11 @@ body{
 }
 #landing{
 	min-height: 450px; height: 70%;background-color: rgb(41, 49, 52);
-	z-index: 0;
 }
 #header{
 	height: 50px;
 	background-color: #DDDDDD;
 	top: 0px;
-	z-index: 1;
 }
 #header p {
 	line-height: 50px;
@@ -22,7 +20,6 @@ body{
 .naslov{
 	font-family: 'Play', sans-serif;
 	color: #EEEEEE;
-	font-size: 4em;
 }
 #cv{
 	height: 65px;
