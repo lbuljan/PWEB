@@ -3,16 +3,18 @@ body{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 #landing{
-	min-height: 450px; height: 70%;background-color: rgb(41, 49, 52);
+	min-height: 350px; background: url('../img/bg.jpg'); #background-color: rgb(41, 49, 52);
+	background-size: cover;
 }
 #header{
 	height: 50px;
-	background-color: #DDDDDD;
+	background-color: rgb(41, 49, 52);
 	top: 0px;
+	font-family: 'Play', sans-serif;
 }
 #header p {
 	line-height: 50px;
-	color: rgb(41, 49, 52);
+	color: #DDDDDD;
 }
 .mid{
 	text-align: center;
@@ -38,4 +40,16 @@ body{
 	border: 1px solid rgba(41, 49, 52, 10);
 	margin-left: auto;
 	margin-right: auto;
+}
+.profil{
+	border-radius: 50%;
+}
+
+@media (max-width: 720px){
+	body{
+		font-size: 0.75em;
+	}
+	#header{
+		display: none;
+	}
 }
