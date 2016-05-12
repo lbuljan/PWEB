@@ -2,33 +2,32 @@ body{
 	background-color: #DDDDDD;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+.panel{
+	padding-top: 1%;
+}
 #landing{
 	min-height: 350px; background: url('../img/bg.jpg'); #background-color: rgb(41, 49, 52);
 	background-size: cover;
 }
-#header{
-	height: 50px;
+#footer{
 	background-color: rgb(41, 49, 52);
-	top: 0px;
-	font-family: 'Play', sans-serif;
-}
-#header p {
-	line-height: 50px;
-	color: #DDDDDD;
+	color: #EEEEEE;
+	height: 150px;
+	line-height: 150px;
 }
 .mid{
 	text-align: center;
 }
 .naslov{
 	font-family: 'Play', sans-serif;
-	color: #EEEEEE;
+	color: rgb(42, 49, 51);
 }
-#cv{
+.tipka{
 	height: 65px;
 	width: 65px;
 	transition: height 0.5s, width 0.5s;
 }
-#cv:hover{
+.tipka:hover{
 	height: 81px;
 	width: 81px;
 	transition: height 0.5s, width 0.5s;
@@ -49,7 +48,17 @@ body{
 	body{
 		font-size: 0.75em;
 	}
-	#header{
-		display: none;
+	.hfsm{
+		display:none;
+	}
+	.tipka{
+		height: 45px;
+		width: 45px;
+		transition: height 0.5s, width 0.5s;
+	}
+	.tipka:hover{
+		height: 65px;
+		width: 65px;
+		transition: height 0.5s, width 0.5s;
 	}
 }
